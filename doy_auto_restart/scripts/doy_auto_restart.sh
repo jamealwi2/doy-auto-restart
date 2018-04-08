@@ -1,5 +1,21 @@
 #!/bin/bash
 
+#===================================================================================
+#
+# FILE: doy_auto_restart.sh
+#
+# USAGE: ./doy_auto_restart.sh
+#
+# DESCRIPTION: The script will help to identify an unhealthy drill on yarn cluster
+# and restart it. All the necessary stirage plugins will be automatically updated.  
+
+# NOTES: 
+# AUTHOR: Alwin James, jamealwi@gmail.com
+# VERSION: 1.0
+# CREATED: 03.27.2018
+#===================================================================================
+
+
 ## Important Notes: 
 ## [1] This is custom script and not part of product. Please test the script in development cluster, make necessary changes and deploy in production cluster.
 ##
